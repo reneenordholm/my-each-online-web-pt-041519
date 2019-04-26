@@ -3,8 +3,8 @@ def my_each(array)
   
   while i < array.length
     yield array[i]
-    
   i = i + 0
+  puts array
 end
-array
+
 end
